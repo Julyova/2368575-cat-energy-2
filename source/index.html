@@ -6,6 +6,10 @@
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -46,7 +50,11 @@
       <div class="hero__wrapper container">
         <h2 class="hero__title">Функциональное питание для котов</h2>
         <p class="hero__text">Занялся собой? Займись котом!</p>
-        <img class="hero__image" src="" width="" height="" alt="">
+        <picture>
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x">
+          <img class="hero__image" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Банка функционального питания Кэт Энэрджи">
+        </picture>
         <a class="hero__link button">Подобрать программу</a>
       </div>
     </section>
@@ -108,16 +116,27 @@
           <img class="example__image" src="" width="" height="" alt="">
         </div>
         <div class="example__container slider">
-          <img class="slider__image" src="" width="" height="" alt="">
-          <img class="slider__image" src="" width="" height="" alt="">
+
+          <picture>
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/fat-cat-tablet@1x.png 1x, images/fat-cat-tablet@2x.png 2x">
+            <img class="slider__image" src="images/fat-cat-mobile@1x.png" srcset="images/fat-cat-mobile@2x.png 2x" width="280" height="270" alt="Толстый кот">
+          </picture>
+          <picture>
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/slim-cat-tablet@1x.png 1x, images/slim-cat-tablet@2x.png 2x">
+            <img class="slider__image" src="images/slim-cat-mobile@1x.png" srcset="images/slim-cat-mobile@2x.png 2x" width="280" height="256" alt="Худой кот">
+          </picture>
           <button class="slider__button" type="button"><span class="visually-hidden">Сдвинуть слайдер</span></button>
         </div>
       </div>
-      </section>
+    </section>
 
     <section class="address">
       <h2 class="visually-hidden">Адрес фирмы</h2>
-      <img class="address__image" src="" width="" height="" alt="">
+      <picture>
+        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/location-desktop@1x.jpg 1x, images/location-desktop@2x.jpg 2x">
+        <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/location-tablet@1x.jpg 1x, images/location-tablet@2x.jpg 2x">
+        <img class="address__image" src="images/location-mobile@1x.jpg" srcset="images/location-mobile@2x.jpg 2x" width="320" height="362" alt="Карта">
+      </picture>
       <div class="address__wrapper container">
         <div class="address__invitation invitation">
           <p class="invitation__text">Приглашаем к сотрудничеству дилеров!</p>
@@ -133,7 +152,7 @@
   <footer class="main-footer">
     <div class="main-footer__inner container">
       <a class="main-footer__logo" href="#">
-        <img src="images/logo-text.svg" width="128" height="24" alt="Кэт Энерджи">
+        <img src="" width="" height="" alt="">
       </a>
       <ul class="social-list">
         <li class="social-list__item">
