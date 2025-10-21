@@ -1,0 +1,60 @@
+.card {
+
+}
+
+.card__image {
+
+}
+
+.card__content {
+
+}
+
+.card__title {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $catalog-color-text;
+}
+
+.card__list {
+
+}
+
+.card__item {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__measure {
+
+}
+
+.card__value {
+
+}
+
+.card__link {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $button-color-text-white;
+}
+
+.card__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.card__button {
+  background-color: $bg-basic-grey;
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $base-color-text;
+}
