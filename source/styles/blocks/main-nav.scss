@@ -8,7 +8,17 @@
 }
 
 .main-nav__toggle {
+  background-color: $bg-basic-white;
+  background-image: url("../../icons/stack.svg#menu-burger");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
 
+.main-nav__toggle--close {
+  background-image: url("../../icons/stack.svg#menu-cross");
 }
 
 .main-nav__list {
