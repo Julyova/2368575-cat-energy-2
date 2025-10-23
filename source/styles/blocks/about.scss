@@ -22,6 +22,37 @@
   list-style: none;
 }
 
+.about__item::before {
+  content: "";
+  background-color: $bg-basic-green;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+.about__item--leaf::before {
+  background-image: url("../../icons/stack.svg#leaf");
+  background-size: 30px 32px;
+}
+
+.about__item--drink::before {
+  background-image: url("../../icons/stack.svg#drink");
+  background-size: 26px 29px;
+}
+
+.about__item--meal::before {
+  background-image: url("../../icons/stack.svg#meal");
+  background-size: 25px 30px;
+}
+
+.about__item--clock::before {
+  background-image: url("../../icons/stack.svg#clock");
+  background-size: 26px 31px;
+}
+
 .about__text {
 
 }

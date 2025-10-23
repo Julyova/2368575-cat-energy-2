@@ -11,8 +11,23 @@
 }
 
 .main-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
   color: $base-color-text;
+}
+
+.main-footer__copyright::after {
+  content: "";
+  background-color: $bg-icons-grey;
+  width: 27px;
+  height: 34px;
+  display: inline-block;
+  mask-image: url("../../icons/stack.svg#html-academy");
+  mask-size: 27px 34px;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }

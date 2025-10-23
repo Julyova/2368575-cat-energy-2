@@ -58,3 +58,10 @@
   text-transform: uppercase;
   color: $base-color-text;
 }
+
+.card__more {
+  background-image: url("../../icons/stack.svg#plus");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
