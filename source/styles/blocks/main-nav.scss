@@ -4,7 +4,12 @@
 
 
 .main-nav__logo {
-
+  display: flex;
+  gap: 56px;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 13px;
+  margin-bottom: 15px;
 }
 
 .main-nav__toggle {
@@ -15,6 +20,7 @@
   border: none;
   width: 24px;
   height: 24px;
+  display: none;
 }
 
 .main-nav__toggle--close {
@@ -22,11 +28,15 @@
 }
 
 .main-nav__list {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-nav__item {
   list-style: none;
+  padding-top: 22px;
+  padding-bottom: 24px;
 }
 
 .main-nav__link {

@@ -3,21 +3,26 @@
 }
 
 .main-footer__inner {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
 }
 
 .main-footer__logo {
-
+  padding-bottom: 20px;
 }
 
 .main-footer__copyright {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
   color: $base-color-text;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .main-footer__copyright::after {

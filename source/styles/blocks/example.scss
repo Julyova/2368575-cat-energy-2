@@ -3,7 +3,8 @@
 }
 
 .example__wrapper {
-
+  margin: 0 20px;
+  padding-bottom: 40px;
 }
 
 .example__title {
@@ -12,18 +13,31 @@
   line-height: 40px;
   font-weight: 400;
   color: $title-color-text;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .example__text {
-
+  max-width: 280px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .example__list {
-
+  display: flex;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .example__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.example__item:first-child {
+  padding-right: 32px;
 }
 
 .example__content {
@@ -32,12 +46,16 @@
   line-height: 24px;
   text-transform: uppercase;
   color: $title-color-text;
+  width: 124px;
+  padding-bottom: 8px;
 }
 
 .example__caption {
   font-size: 12px;
   line-height: 12px;
   text-transform: lowercase;
+  max-width: 77px;
+  margin: 0;
 }
 
 .example__cost {

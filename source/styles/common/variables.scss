@@ -1,9 +1,14 @@
 /* здесь используйте глобальные переменные */
+
+// Colors
+
 $base-color-text: #444444;
 $button-color-text-white: #ffffff;
 $title-color-text: #000000;
 $invitation-color-text: #111111;
 $catalog-color-text: #222222;
+
+// Background Colors
 
 $bg-basic-green: #68b738;
 $bg-basic-white: #ffffff;
@@ -11,3 +16,9 @@ $bg-basic-grey: #f2f2f2;
 $bg-special-grey: #eaeaea;
 $bg-basic-black: #000000;
 $bg-icons-grey: #666666;
+
+// Viewports
+
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;

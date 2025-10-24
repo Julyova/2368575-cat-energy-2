@@ -1,5 +1,8 @@
 .social-list {
-
+  display: flex;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .social-list__item {
@@ -27,6 +30,7 @@
     mask-image: url("../../icons/stack.svg#vk");
     mask-size: 28px 22px;
     mask-repeat: no-repeat;
+    margin-right: 24px;
   }
 
   &:hover,
@@ -50,6 +54,7 @@
     mask-image: url("../../icons/stack.svg#youtube");
     mask-size: 28px 22px;
     mask-repeat: no-repeat;
+    margin-right: 24px;
   }
 
   &:hover,

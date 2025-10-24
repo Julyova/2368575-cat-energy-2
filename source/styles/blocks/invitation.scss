@@ -8,14 +8,18 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $invitation-color-text;
+  margin: 0;
+  max-width: 140px;
 }
 
 .invitation__street {
   font-style: normal;
   line-height: 20px;
+  margin: 0;
 }
 
 .invitation__city {
   font-style: normal;
   line-height: 20px;
+  margin: 0;
 }
