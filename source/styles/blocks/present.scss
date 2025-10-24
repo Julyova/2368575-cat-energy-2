@@ -1,6 +1,6 @@
 .present {
   background-color: $bg-basic-green;
-  background-image: url("../../images/")
+  background-image: url("../../images/");
 }
 
 .present__text {
@@ -8,14 +8,23 @@
   line-height: 20px;
   text-align: center;
   color: $button-color-text-white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 58px 0 43px;
+
+  max-width: 161px;
 }
 
 .present__text::before {
   content: "";
   background-image: url("../../icons/stack.svg#present");
+  background-position: center 0;
   background-repeat: no-repeat;
   background-size: 78px 80px;
   width: 80px;
   height: 80px;
-  display: block;
+  margin-bottom: 48px;
+  flex-shrink: 0;
 }

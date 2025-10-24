@@ -3,7 +3,7 @@
 }
 
 .subscription__wrapper {
-
+  padding: 40px 20px;
 }
 
 .subscription__title {
@@ -11,6 +11,8 @@
   line-height: 24px;
   font-weight: 400;
   color: $title-color-text;
+  margin: 0;
+  padding-bottom: 32px;
 }
 
 .subscription__text {
@@ -18,16 +20,27 @@
   line-height: 24px;
   text-align: center;
   color: $title-color-text;
+  margin: 0;
+  padding-bottom: 24px;
 }
+
 
 .subscription__form {
 
 }
 
 .subscription__field {
+  font-family: $secondary-font;
+  color: $base-color-text;
+
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
+  max-width: 100%;
+  width: 280px;
+  padding: 13px;
+  margin-bottom: 16px;
+  border: 1px solid $bg-basic-grey;
 }
 
 .subscription__button {
@@ -35,4 +48,9 @@
   line-height: 26px;
   text-transform: uppercase;
   color: $button-color-text-white;
+  display: block;
+  width: 280px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 0;
 }

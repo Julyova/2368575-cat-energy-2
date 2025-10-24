@@ -1,5 +1,5 @@
 .catalog {
-
+  margin-bottom: 25px;
 }
 
 .catalog__wrapper {
@@ -12,16 +12,30 @@
   line-height: 36px;
   font-weight: 400;
   color: $title-color-text;
+  margin: 0;
+  padding: 27px 42px 41px 20px;
+  white-space: nowrap;
 }
 
 .catalog__card {
-
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  grid-template-rows: auto 1fr auto;
 }
 
 .catalog__list {
-
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .catalog__item {
   list-style: none;
+  padding: 20px 20px 25px;
 }
+
+.catalog__item:last-child {
+  padding-top: 25px;
+}
+

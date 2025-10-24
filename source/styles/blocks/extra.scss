@@ -1,5 +1,5 @@
 .extra {
-
+  padding: 0 20px;
 }
 
 .extra__wrapper {
@@ -12,20 +12,27 @@
   line-height: 24px;
   font-weight: 400;
   color: $title-color-text;
+  margin: 0;
+  padding-bottom: 36px;
 }
 
 .extra__list {
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .extra__item {
-
+  padding: 13px 0 19px;
 }
 
 .extra__product {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .extra__present {
-
+  margin-top: 35px;
 }
