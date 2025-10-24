@@ -3,5 +3,11 @@
 }
 
 .logo__name {
+  margin-left: 56px;
+}
 
+@media (min-width: $tablet-width) {
+  .logo__name {
+    margin-left: 13px;
+  }
 }
