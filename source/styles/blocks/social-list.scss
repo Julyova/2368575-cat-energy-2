@@ -3,6 +3,13 @@
   margin: 0;
   padding-bottom: 20px;
   padding-top: 20px;
+
+  @media (min-width: 768px) {
+    width: 132px;
+    justify-content: space-between;
+    padding: 0;
+    margin-right: 125px;
+  }
 }
 
 .social-list__item {
@@ -14,8 +21,8 @@
   color: $base-color-text;
   background-position: 50%;
   background-repeat: no-repeat;
-  min-width: 28px;
-  min-height: 28px;
+  width: 28px;
+  height: 22px;
   display: block;
   transition: all 1.3s;
 }

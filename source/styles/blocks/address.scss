@@ -17,4 +17,9 @@
 .address__invitation {
   padding: 26px 20px;
   display: flex;
+
+  @media (min-width: 768px) {
+    padding: 60px 70px;
+    justify-content: space-between;
+  }
 }

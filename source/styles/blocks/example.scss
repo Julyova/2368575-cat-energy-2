@@ -5,6 +5,15 @@
 .example__wrapper {
   margin: 0 20px;
   padding-bottom: 40px;
+
+  @media (min-width: 768px) {
+    margin: 0 30px;
+    padding-top: 45px;
+    padding-bottom: 101px;
+    display: grid;
+    grid-template-columns: 205px 329px 174px;
+    grid-template-rows: 120px 127px 176px;
+  }
 }
 
 .example__title {
@@ -15,18 +24,41 @@
   color: $title-color-text;
   padding-top: 25px;
   padding-bottom: 40px;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    padding-bottom: 60px;
+    font-size: 60px;
+    line-height: 60px;
+    grid-column: span 3;
+  }
 }
 
 .example__text {
   max-width: 280px;
   margin: 0;
   padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    max-width: 708px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    grid-column: span 3;
+  }
 }
 
 .example__list {
   display: flex;
   margin: 0;
   padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    grid-column: span 2;
+    gap: 43px;
+    padding-bottom: 0;
+  }
 }
 
 .example__item {
@@ -38,6 +70,10 @@
 
 .example__item:first-child {
   padding-right: 32px;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
 }
 
 .example__content {
@@ -48,6 +84,14 @@
   color: $title-color-text;
   width: 124px;
   padding-bottom: 8px;
+
+  @media (min-width: 768px) {
+    width: 162px;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .example__caption {
@@ -56,6 +100,11 @@
   text-transform: lowercase;
   max-width: 77px;
   margin: 0;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
 .example__cost {
@@ -63,5 +112,7 @@
 }
 
 .example__container {
-
+  @media (min-width: 768px) {
+    display: block;
+  }
 }

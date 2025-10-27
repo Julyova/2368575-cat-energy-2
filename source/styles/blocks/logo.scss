@@ -4,10 +4,11 @@
 
 .logo__name {
   margin-left: 56px;
-}
 
-@media (min-width: $tablet-width) {
-  .logo__name {
-    margin-left: 13px;
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+    width: 128px;
+    height: 24px;
+    margin-right: 160px;
   }
 }
