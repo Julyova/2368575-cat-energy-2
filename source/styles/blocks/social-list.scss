@@ -4,7 +4,7 @@
   padding-bottom: 20px;
   padding-top: 20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     width: 132px;
     justify-content: space-between;
     padding: 0;
