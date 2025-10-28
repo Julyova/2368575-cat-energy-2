@@ -11,4 +11,11 @@
     height: 24px;
     margin-right: 95px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 118px;
+    height: 21px;
+    margin-left: 14px;
+    margin-right: 0;
+  }
 }

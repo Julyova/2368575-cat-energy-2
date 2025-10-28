@@ -28,6 +28,10 @@
     text-align: right;
     padding-bottom: 32px;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+  }
 }
 
 .invitation__city {
@@ -35,8 +39,12 @@
   line-height: 20px;
   margin: 0;
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet-width) {
     font-size: 16px;
     text-align: right;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
   }
 }

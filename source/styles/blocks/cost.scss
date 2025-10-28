@@ -18,4 +18,15 @@
     text-align: right;
     padding-bottom: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    padding-left: 110px;
+  }
+}
+
+.cost__value {
+  @media (min-width: $desktop-width) {
+    padding-left: 63px;
+  }
 }

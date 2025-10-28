@@ -10,6 +10,11 @@
     padding: 0;
     margin-right: 125px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 376px;
+    margin-left: 416px;
+  }
 }
 
 .social-list__item {

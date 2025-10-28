@@ -8,6 +8,10 @@
   @media (min-width: $tablet-width) {
     margin: 0 105px 47px 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 106px 69px 110px;
+  }
 }
 
 .about__title {
@@ -39,6 +43,13 @@
     justify-content: space-between;
     row-gap: 37px;
     height: 597px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: 280px;
+    row-gap: 94px;
+    height: 280px;
   }
 }
 
