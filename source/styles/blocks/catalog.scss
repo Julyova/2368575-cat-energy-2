@@ -1,10 +1,18 @@
 .catalog {
   margin-bottom: 25px;
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+  }
 }
 
 .catalog__wrapper {
   @media (min-width: $tablet-width) {
     margin: 0 30px 74px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 50px 110px 71px;
   }
 }
 
@@ -40,6 +48,12 @@
     grid-template-columns: repeat(2, 324px);
     grid-template-rows: repeat(4, 511px);
     gap: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 245px);
+    grid-template-rows: repeat(2, 511px);
+    gap: 63px 80px;
   }
 }
 

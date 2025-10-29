@@ -8,6 +8,10 @@
   @media (min-width: $tablet-width) {
     padding: 80px 68px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 96px 40px 104px;
+  }
 }
 
 .subscription__title {
@@ -20,8 +24,13 @@
 
   @media (min-width: $tablet-width) {
     padding-bottom: 66px;
+    padding-left: 70px;
     font-size: 32px;
     line-height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 72px;
   }
 }
 
@@ -65,6 +74,10 @@
     width: 376px;
     margin-bottom: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 496px;
+  }
 }
 
 .subscription__button {
@@ -77,4 +90,8 @@
   border: none;
   cursor: pointer;
   padding: 15px 0;
+
+  @media (min-width: $tablet-width) {
+    width: 256px;
+  }
 }

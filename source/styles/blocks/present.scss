@@ -23,6 +23,13 @@
     text-align: left;
     max-width: none;
   }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    width: 245px;
+    padding: 56px 42px 43px;
+    text-align: center;
+  }
 }
 
 .present__text::before {
@@ -40,5 +47,10 @@
     height: 83px;
     margin: 0;
     margin-right: 264px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: auto;
+    margin-bottom: 46px;
   }
 }

@@ -24,7 +24,7 @@
     margin: 0;
   }
 
-    @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width) {
     margin-right: 543px;
   }
 }
@@ -101,6 +101,14 @@
     line-height: 24px;
   }
 
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+}
+
+.main-nav__link--white-text {
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 20px;
