@@ -1,5 +1,20 @@
 .social-list {
+  display: flex;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
 
+  @media (min-width: $tablet-width) {
+    width: 132px;
+    justify-content: space-between;
+    padding: 0;
+    margin-right: 125px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 376px;
+    margin-left: 416px;
+  }
 }
 
 .social-list__item {
@@ -11,8 +26,8 @@
   color: $base-color-text;
   background-position: 50%;
   background-repeat: no-repeat;
-  min-width: 28px;
-  min-height: 28px;
+  width: 28px;
+  height: 22px;
   display: block;
   transition: all 1.3s;
 }
@@ -27,6 +42,7 @@
     mask-image: url("../../icons/stack.svg#vk");
     mask-size: 28px 22px;
     mask-repeat: no-repeat;
+    margin-right: 24px;
   }
 
   &:hover,
@@ -50,6 +66,7 @@
     mask-image: url("../../icons/stack.svg#youtube");
     mask-size: 28px 22px;
     mask-repeat: no-repeat;
+    margin-right: 24px;
   }
 
   &:hover,
