@@ -1,32 +1,35 @@
 .cost {
-
-}
-
-.cost__text {
   font-family: $secondary-font;
-  font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  text-align: center;
-  color: $title-color-text;
+  color: $secondary-color;
+}
+
+.cost__description {
   margin: 0;
-  padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
-    text-align: right;
-    padding-bottom: 0;
   }
 
-  @media (min-width: $desktop-width) {
-    text-align: left;
-    padding-left: 110px;
+  @media (min-width: $tablet-width) and (max-width: 1439px) {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 11px;
   }
 }
 
 .cost__value {
+  margin-left: 4px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+    margin-top: 9px;
+  }
+
   @media (min-width: $desktop-width) {
-    padding-left: 63px;
+    margin-left: 63px;
   }
 }

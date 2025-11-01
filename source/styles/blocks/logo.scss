@@ -1,21 +1,13 @@
-.logo__image {
-
+.logo {
+  @media (max-width: 767px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-.logo__name {
-  margin-left: 56px;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 0;
-    width: 101px;
-    height: 24px;
-    margin-right: 95px;
-  }
-
+.logo__text {
   @media (min-width: $desktop-width) {
     width: 118px;
     height: 21px;
-    margin-left: 14px;
-    margin-right: 0;
   }
 }

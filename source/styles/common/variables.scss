@@ -1,24 +1,17 @@
-/* здесь используйте глобальные переменные */
+// ЦВЕТ ТЕКСТА
+$base-color: #444444;/* здесь используйте глобальные переменные */
+$secondary-color: #000000;
+$thirdly-color: #ffffff;
 
-// Colors
+// ШРИФТ
+$base-font: "Lato", "Arial", sans-serif;
+$secondary-font: "Oswald", "Arial", sans-serif;
 
-$base-color-text: #444444;
-$button-color-text-white: #ffffff;
-$title-color-text: #000000;
-$invitation-color-text: #111111;
-$catalog-color-text: #222222;
+// ЦВЕТ ФОНА
+$basic-green: #68b738;
+$basic-grey: #f2f2f2;
+$secondary-grey: #eaeaea;
 
-// Background Colors
-
-$bg-basic-green: #68b738;
-$bg-basic-white: #ffffff;
-$bg-basic-grey: #f2f2f2;
-$bg-special-grey: #eaeaea;
-$bg-basic-black: #000000;
-$bg-icons-grey: #666666;
-
-// Viewports
-
+// ВЬЮПОРТ
 $tablet-width: 768px;
 $desktop-width: 1440px;
-$mobile-width-only: 767px;
