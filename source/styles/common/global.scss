@@ -1,14 +1,23 @@
-/* здесь используйте глобальные селекторы img, body, html и так далее */
-
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
-  font-family: $primary-font;
+  font-family: $base-font;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 400;
-  color: $base-color-text;
-  background-color: $bg-basic-white;
+  color: $base-color;
+  background-color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}/* здесь используйте глобальные селекторы img, body, html и так далее */
+
+img {
+  display: block;
 }
