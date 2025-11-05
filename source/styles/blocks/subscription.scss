@@ -75,6 +75,18 @@
   text-transform: uppercase;
   border: solid 1px #e7e7e7;
 
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:focus {
+    outline: solid 2px #444444;
+  }
+
+  &:invalid {
+    outline: solid 2px #ff8282;
+  }
+
   @media (min-width: $tablet-width) {
     width: 376px;
   }
@@ -92,6 +104,16 @@
   padding: 15px 81.5px;
   font-size: 20px;
   line-height: 26px;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba(255, 255, 255, 0.3);
+  }
 
   @media (min-width: $tablet-width) {
     padding: 15px 70px;

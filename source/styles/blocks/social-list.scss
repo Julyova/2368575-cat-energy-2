@@ -53,6 +53,15 @@
   }
 }
 
+.social-list__link--vkontakte:hover::before,
+.social-list__link--vkontakte:focus::before {
+  background-color: $basic-green;
+}
+
+.social-list__link--vkontakte:active::before {
+  background-color: $basic-green;
+  opacity: 0.3;
+}
 
 .social-list__link--youtube {
   &::before {
@@ -65,6 +74,16 @@
     mask-repeat: no-repeat;
     background-color: #666666;
   }
+}
+
+.social-list__link--youtube:hover::before,
+.social-list__link--youtube:focus::before {
+  background-color: $basic-green;
+}
+
+.social-list__link--youtube:active::before {
+  background-color: $basic-green;
+  opacity: 0.3;
 }
 
 .social-list__link--telegram {
@@ -80,3 +99,12 @@
   }
 }
 
+.social-list__link--telegram:hover::before,
+.social-list__link--telegram:focus::before {
+  background-color: $basic-green;
+}
+
+.social-list__link--telegram:active::before {
+  background-color: $basic-green;
+  opacity: 0.3;
+}

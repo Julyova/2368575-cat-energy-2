@@ -169,6 +169,16 @@
   width: 100%;
   padding: 10px 64px;
 
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
   @media (min-width: $tablet-width) and (max-width: 1439px) {
     position: absolute;
     top: 230px;

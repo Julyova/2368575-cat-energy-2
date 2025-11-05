@@ -135,6 +135,10 @@
   gap: 15px;
   flex-wrap: wrap;
 
+  &:active {
+    opacity: 0.3;
+  }
+
   @media (min-width: $tablet-width) {
     width: 165px;
     font-size: 20px;
@@ -156,4 +160,10 @@
   mask-image: url("../../icons/stack.svg#arrow");
   mask-size: 32px 10px;
   mask-repeat: no-repeat;
+}
+
+.programs__link:hover::after,
+.programs__link:focus::after,
+.programs__link:active::after {
+  mask-image: url("../../icons/stack.svg#arrow-long");
 }

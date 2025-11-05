@@ -170,6 +170,16 @@
   padding: 10px 109px;
   width: 280px;
 
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
   @media (min-width: $tablet-width) {
     margin-top: 32px;
     padding: 10px 94px;
@@ -188,6 +198,12 @@
   width: 280px;
   color: $base-color;
   background-color: $basic-grey;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #ebebeb;
+  }
 
   @media (min-width: $tablet-width) {
     margin-top: 32px;

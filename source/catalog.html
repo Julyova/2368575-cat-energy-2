@@ -16,8 +16,8 @@
 <body class="page__body">
   <header class="main-header">
     <div class="main-header__inner main-header__inner--catalog container">
-      <nav class="navigation navigation--no-js">
-        <a class="navigation__logo logo" href="index.html">
+      <nav class="main-nav main-nav--no-js">
+        <a class="main-nav__logo logo" href="index.html">
           <picture>
             <source width="70" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg">
             <source width="60" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg">
@@ -25,24 +25,24 @@
           </picture>
           <img class="logo__text" src="images/logo-text.svg" width="101" height="20" alt="Кэт Энерджи">
         </a>
-        <ul class="navigation__list navigation__list--catalog">
-          <li class="navigation__item">
-            <a class="navigation__link" href="index.html">
+        <ul class="main-nav__list main-nav__list--catalog">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="index.html">
               Главная
             </a>
           </li>
-          <li class="navigation__item navigation__item--current">
-            <a class="navigation__link" href="#">
+          <li class="main-nav__item main-nav__item--active">
+            <a class="main-nav__link" href="#">
               Каталог продукции
             </a>
           </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="#">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">
               Подбор программы
             </a>
           </li>
         </ul>
-        <button class="navigation__toggle navigation__toggle--open" type="button">
+        <button class="main-nav__toggle main-nav__toggle--open" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
       </nav>
@@ -51,7 +51,7 @@
   <main>
     <h1 class="visually-hidden">Каталог</h1>
     <section class="catalog">
-      <div class="catalog__inner container">
+      <div class="catalog__wrapper container">
         <h2 class="catalog__title">Каталог продукции</h2>
         <ul class="catalog__list">
           <li class="catalog__item catalog__item--bg">
@@ -313,13 +313,13 @@
         </ul>
       </div>
     </section>
-    <section class="additional-products">
-      <div class="additional-products__inner container">
-        <h2 class="additional-products__title title-line">Дополнительные товары</h2>
-        <div class="additional-products__wrapper">
-          <ul class="additional-products__list">
-            <li class="additional-products__item">
-              <article class="additional-products__product product">
+    <section class="extra">
+      <div class="extra__inner container">
+        <h2 class="extra__title title-line">Дополнительные товары</h2>
+        <div class="extra__wrapper">
+          <ul class="extra__list">
+            <li class="extra__item">
+              <article class="extra__product product">
                 <h3 class="product__title">Сахарозаменитель</h3>
                 <p class="product__content">
                   <span class="product__volume">1 упаковка (100 г)</span>
@@ -330,8 +330,8 @@
                 </a>
               </article>
             </li>
-            <li class="additional-products__item">
-              <article class="additional-products__product product">
+            <li class="extra__item">
+              <article class="extra__product product">
                 <h3 class="product__title">Питьевая вода</h3>
                 <p class="product__content">
                   <span class="product__volume">5 литров</span>
@@ -342,8 +342,8 @@
                 </a>
               </article>
             </li>
-            <li class="additional-products__item">
-              <article class="additional-products__product product">
+            <li class="extra__item">
+              <article class="extra__product product">
                 <h3 class="product__title">Молоко</h3>
                 <p class="product__content">
                   <span class="product__volume">1 литр</span>
@@ -354,8 +354,8 @@
                 </a>
               </article>
             </li>
-            <li class="additional-products__item">
-              <article class="additional-products__product product">
+            <li class="extra__item">
+              <article class="extra__product product">
                 <h3 class="product__title">Витамины</h3>
                 <p class="product__content">
                   <span class="product__volume">1 упаковка (30 г)</span>
@@ -367,7 +367,7 @@
               </article>
             </li>
           </ul>
-          <div class="additional-products__gift gift">
+          <div class="extra__gift gift">
             <p class="gift__text">Закажите все <br>и получите чехол для кота в подарок!</p>
           </div>
         </div>
